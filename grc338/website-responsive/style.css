@@ -1,0 +1,98 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, 
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, 
+ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, 
+th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, 
+hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video 
+{margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+    display: block;
+}
+
+h1 {
+    width: 10em;
+    color: #1e1e1e;
+}
+
+h2 {
+    margin: 2rem 1rem 1rem;
+    font-weight: bold;
+    font-family: Niramit;
+    font-size: 2em;
+    color: #1e1e1e;
+}
+
+h3 {
+	margin: 1rem 1rem 1rem;
+	padding-top: 1rem;
+	font-size: 1.2em;
+	color: #f25f4c;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	border-top: solid #ff8906;
+}
+
+h4 {
+    font-family: Niramit;
+	margin: 1rem;
+}
+
+body {
+    padding: 1rem;
+	margin: 1rem;
+	background-color: #fafafa;
+	color: #1e1e1e;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 140%;
+}
+
+li {
+    display: inline;
+    padding: 1rem 1rem;
+}
+
+p.description {
+	font-style: italic;
+}
+
+p.price {
+	color: #f25f4c;
+}
+
+p {
+	margin: 1rem;
+}
+
+ul {
+	margin: 1rem 0rem 1rem;
+}
+
+a {
+	display: inline;
+	color:#f25f4c;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav {
+	text-transform: uppercase;
+}
+
+img {
+	margin: 1em;
+}
+
+@media only screen and (min-width: 60em) {
+
+	main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 3em;
+	}
+}
