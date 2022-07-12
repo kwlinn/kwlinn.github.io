@@ -1,0 +1,119 @@
+/*CSS document*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+@import url("https://use.typekit.net/boi1oki.css");
+
+body {
+    background-color: #fafafa;
+    margin: 0em;
+}
+
+div.container {
+    max-width: 30em;
+    margin: auto;
+}
+
+figure {
+    margin: 0em;
+}
+
+img {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0em;
+    margin-bottom: 2.25em;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 0.95em;
+    font-family: Jaldi, sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    font-style: normal;
+}
+  
+nav ul li a {
+    color: #242526;
+    text-decoration: none;
+}
+  
+nav ul li a:hover {
+    color: #6B705C;
+}
+
+h1 {
+    margin-bottom: 0.2em;
+    width: 80%;
+}
+
+h2 {
+    font-family: cormorant-garamond,serif;
+    font-weight: 625;
+    font-style: normal;
+    font-size: 1.65em;
+    width: 18em;
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    color: #2C3C20;
+    line-height: 1.45;
+}
+
+h3 {
+    font-family: cormorant-garamond,serif;
+    font-weight: 625;
+    font-style: normal;
+    font-size: 1.35em;
+    width: 18em;
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    color: #2C3C20;
+}
+
+figcaption {
+    font-family: cormorant-garamond, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1em;
+    margin: 0.25em 1em 0.85em 0em;
+    color: #242526;
+}
+
+p {
+    font-family: Jaldi, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0em 1em 0.5em 0em;
+    color: #242526;
+}
+
+.teaserimage a{
+    text-decoration: none;
+
+}
+
+.teaserimage a :hover{
+    color: #6B705C;
+}
+
+.teaser a{
+    text-decoration: none;
+}
+
+.teaser a :hover {
+    color: #6B705C;
+}
+
+footer p{
+    font-family: cormorant-garamond, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1em;
+    margin-top: 1em;
+}
