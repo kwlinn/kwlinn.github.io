@@ -1,0 +1,16 @@
+img {
+    text-align: center;
+    display: block;
+    max-width: 25%;
+    max-height: auto;
+}
+
+#no {
+    display: block;
+    position: relative;
+}
+
+div {
+    display: grid;
+    place-items: center;
+}
