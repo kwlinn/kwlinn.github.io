@@ -11,14 +11,22 @@ function change() {
     }
 }
 
-// function random_image() {
-//     var images = ["images/no/1.jpg", "images/no/2.jpg"]
-// }
+var images = ["images/no/1.jpg", "images/no/2.jpg", "images/no/3.jpg"]
 
-// var images = ["images/no/1.jpg", "images/no/2.jpg"];
+function random_image() {
+    random_index = Math.floor(Math.random() * images.length);
+
+    selected_image = images[random_index]
+
+    document.querySelector("img").src = `./${selected_image}`
+}
+
+function runboth() {
+    change();
+    random_image();
+}
 
 
-// console.log(images)
 
 var yes = document.getElementById("yes");
 
