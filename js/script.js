@@ -18,7 +18,7 @@ function change() {
 // var images = ["images/no/1.jpg", "images/no/2.jpg"];
 
 
-console.log(images)
+// console.log(images)
 
 var yes = document.getElementById("yes");
 
