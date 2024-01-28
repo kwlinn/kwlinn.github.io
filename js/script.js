@@ -1,6 +1,6 @@
 var button = document.getElementById("no");
 
-button.addEventListener("click", change);
+button.addEventListener("click", runboth);
 
 function change() {
     {
@@ -29,7 +29,11 @@ function runboth() {
 
 
 var yes = document.getElementById("yes");
+var btn = document.querySelectorAll("button");
 
 yes.addEventListener("click", function () {
     document.querySelector("img").src = "images/bobbyhappy.jpg";
+    poo.textContent = "Yippee!";
+    yes.style.display = 'none';
+    no.style.display = 'none';
 })
